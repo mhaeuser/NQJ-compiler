@@ -1,0 +1,14 @@
+.classpath
+.gradle/
+.project
+.idea
+*.iml
+*.ipr
+
+build/
+testoutput/
+src-generated/
+temp/
+
+.settings/
+bin/

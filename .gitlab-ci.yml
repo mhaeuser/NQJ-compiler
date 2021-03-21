@@ -1,0 +1,12 @@
+image: openjdk:15.0.1-slim-buster
+
+stages:
+  - build
+
+portfolio:
+  image: openjdk:15.0.1-slim-buster
+  stage: build
+  script:
+    - apt-get update && apt-get -y install llvm clang
+    - ./gradlew build
+
